@@ -107,9 +107,9 @@
         <div class="deploy">
             <table width="100%">
                 <tr align="center" height="114px">
-                    <td valign="middle"><img id="switchbtn" src="./image/03-turn-on.svg" alt=""><br/><span id="switchspan">外出布防</span></td>
+                    <td valign="middle"><img id="deploybtn" src="./image/04-lock.svg" alt=""><br/><span id="switchspan">外出布防</span></td>
                     <!-- <td valign="middle"><hr class="hrline" size="80" /></td> -->
-                    <td valign="middle"><img id="rgbimgid" src="./image/02-red.svg" alt=""><br/><span>布防</span></td>
+                    <td valign="middle"><img id="undeploybtn" src="./image/04-unlock.svg" alt=""><br/><span>撤防</span></td>
                 </tr>                
             </table>
         </div>
@@ -232,7 +232,7 @@
             }
             client.publish(topic, commond);
         });
-
+		
         function led_red() {
             var topic = device_id+'/in';
             var commond = '{"rgbled_switch":true,"rgbled_hues":0, "rgbled_saturation":100, "rgbled_brightness":100}'; 
@@ -250,6 +250,23 @@
             var commond = '{"rgbled_switch":true,"rgbled_hues":60, "rgbled_saturation":100, "rgbled_brightness":100}'; 
             client.publish(topic, commond);
         }
+
+        // 控制按钮显示的事件
+        $("#deploybtn").click(function() {
+            var topic = device_id+'/in';
+            var commond;
+            var swtimg = $("#deploybtn").attr("src");
+			commond = '{"deploy":true}';
+            client.publish(topic, commond);
+        });	
+		        // 控制按钮显示的事件
+        $("#undeploybtn").click(function() {
+            var topic = device_id+'/in';
+            var commond;
+            var swtimg = $("#deploybtn").attr("src");
+			commond = '{"undeploy":false}';
+            client.publish(topic, commond);
+        });	
     }
 
     // 日志打印在页面的部分    

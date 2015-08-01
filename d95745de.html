@@ -275,7 +275,7 @@
             var topic = device_id+'/in';
             var commond;
             //var swtimg = $("#deploybtn").attr("src");
-			commond = '{"deploy":true}';
+			commond = '{"deploy":false}';
             client.publish(topic, commond);
         });	
 		        // 控制按钮显示的事件
@@ -283,7 +283,7 @@
             var topic = device_id+'/in';
             var commond;
             //var swtimg = $("#deploybtn").attr("src");
-			commond = '{"deploy":false}';
+			commond = '{"deploy":true}';
             client.publish(topic, commond);
         });	
     }

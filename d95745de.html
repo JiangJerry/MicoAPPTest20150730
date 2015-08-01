@@ -257,7 +257,7 @@
         $("#deploybtn").click(function() {
             var topic = device_id+'/in';
             var commond;
-            var swtimg = $("#deploybtn").attr("src");
+            //var swtimg = $("#deploybtn").attr("src");
 			commond = '{"deploy":true}';
             client.publish(topic, commond);
         });	
@@ -265,7 +265,7 @@
         $("#undeploybtn").click(function() {
             var topic = device_id+'/in';
             var commond;
-            var swtimg = $("#deploybtn").attr("src");
+            //var swtimg = $("#deploybtn").attr("src");
 			commond = '{"undeploy":false}';
             client.publish(topic, commond);
         });	

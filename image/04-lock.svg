@@ -1,91 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg2995"
-   version="1.1"
-   inkscape:version="0.48.4 r9939"
-   width="60"
-   height="60"
-   sodipodi:docname="04-lock.png">
-  <metadata
-     id="metadata3001">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs2999" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview2997"
-     showgrid="false"
-     inkscape:zoom="3.9333333"
-     inkscape:cx="30"
-     inkscape:cy="30"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2995" />
-  <image
-     width="60"
-     height="60"
-     xlink:href="data:image/png;base64,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
-"
-     id="image3003"
-     x="0"
-     y="0" />
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="60px" height="60px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
+<circle fill="#F0F0F0" cx="29.969" cy="29.969" r="29.681"/>
+<g>
+	<path fill="#FF426A" d="M35.966,24.023c-0.123-0.116-0.288-0.187-0.47-0.187c-0.379,0-0.688,0.307-0.688,0.687
+		c0,0.219,0.104,0.415,0.265,0.541l-0.003,0.002c2.016,1.575,3.171,3.943,3.171,6.497c0,4.545-3.696,8.242-8.241,8.242
+		c-4.544,0-8.242-3.697-8.242-8.242c0-2.378,1.029-4.643,2.823-6.208l-0.001-0.001c0.137-0.125,0.224-0.306,0.224-0.506
+		c0-0.379-0.308-0.687-0.687-0.687c-0.19,0-0.362,0.077-0.486,0.202c-2.063,1.827-3.246,4.447-3.246,7.203
+		c0,5.302,4.313,9.615,9.615,9.615s9.615-4.313,9.615-9.615C39.615,28.605,38.286,25.861,35.966,24.023L35.966,24.023z
+		 M29.692,30.714c0.35,0,0.639-0.262,0.681-0.601h0.006v-8.585h-0.006c-0.042-0.338-0.331-0.601-0.681-0.601
+		s-0.639,0.262-0.681,0.601h-0.006v8.585h0.006C29.053,30.453,29.342,30.714,29.692,30.714L29.692,30.714z"/>
+</g>
 </svg>
